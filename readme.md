@@ -18,27 +18,27 @@ The locked stub code in your editor will print the integer returned by your getH
 
 Sample Input
 
-7
-3
-5
-2
-1
-4
-6
-7
+	7
+	3
+	5
+	2
+	1
+	4
+	6
+	7
 
 Sample Output
 
-3
+	3
 
 Explanation
 
 The input forms the following BST:
 
-       3
-    2	  5
-  1     4   6
-              7
+				3
+		2	  			5
+	1				4   		6
+								7
 
 The longest root-to-leaf path is: 3->5->6->7
 
