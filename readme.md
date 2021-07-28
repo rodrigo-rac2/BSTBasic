@@ -4,7 +4,7 @@ Today, we're working with Binary Search Trees (BSTs). Check out the Tutorial tab
 
 Task
 
-The height of a binary search tree is the number of edges between the tree's root and its furthest leaf. You are given a pointer, , pointing to the root of a binary search tree. Complete the getHeight function provided in your editor so that it returns the height of the binary search tree.
+The height of a binary search tree is the number of edges between the tree's root and its furthest leaf. You are given a pointer, root, pointing to the root of a binary search tree. Complete the getHeight function provided in your editor so that it returns the height of the binary search tree.
 
 Input Format
 
@@ -19,19 +19,12 @@ The locked stub code in your editor will print the integer returned by your getH
 Sample Input
 
 7
-
 3
-
 5
-
 2
-
 1
-
 4
-
 6
-
 7
 
 Sample Output
@@ -42,12 +35,11 @@ Explanation
 
 The input forms the following BST:
 
-		3
-	2		5
-  1		  4	  6
-				7
+       3
+    2	  5
+ 1      4   6
+              7
 
 The longest root-to-leaf path is: 3->5->6->7
 
 There are 4 nodes in this path that are connected by 3 edges, meaning our BST's height=3. Thus, we print 3 as our answer.
-
