@@ -14,14 +14,21 @@ class Program
 
     static int getHeight(Node root)
     {
-        //Write your code here
         if (root.left == null && root.right == null)
         {
-            return 1;
+            return 0;
+        }
+        else if (root.left != null && root.right != null)
+        {
+            return (1 + Math.Max(getHeight(root.left), getHeight(root.right)));
+        }
+        else if (root.left != null && root.right == null)
+        {
+            return (1 + getHeight(root.left));
         }
         else
         {
-            return (1 + Math.Max(getHeight(root.left), getHeight(root.left)));
+            return (1 + getHeight(root.right));
         }
     }
 
