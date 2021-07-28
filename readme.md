@@ -37,7 +37,7 @@ The input forms the following BST:
 
        3
     2	  5
- 1      4   6
+  1     4   6
               7
 
 The longest root-to-leaf path is: 3->5->6->7
